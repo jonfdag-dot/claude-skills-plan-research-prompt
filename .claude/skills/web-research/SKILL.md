@@ -25,7 +25,7 @@ Read [query-operators.md](references/query-operators.md) for weak searches, [sou
 
 Complete the full sequence: frame the decision; retrieve prior findings; investigate bounded gaps; test competing explanations and substantive alternatives; synthesize by subquestion; obtain a fresh independent challenge of consequential conclusions; reopen decisive originals; audit citations, calculations and coverage; retain useful findings.
 
-Delegate independent bounded research or challenge to an available `worker-researcher` when it materially helps. Supply the original question, constraints, evidence inventory, proposed conclusion and original-source pointers. The researcher has no shell; the parent supplies library CLI results. Workers return findings with claim-linked locators, matching IDs, qualifications and gaps. The parent owns reasoning, resolution and persistence. If independent challenge cannot run, label that stage incomplete instead of claiming the full cycle passed.
+Delegate independent bounded research or challenge to an independently available research agent when it materially helps. Supply the original question, constraints, evidence inventory, proposed conclusion and original-source pointers. This kit supplies no research agent. If an available agent lacks shell access, the parent supplies library CLI results. Workers return findings with claim-linked locators, matching IDs, qualifications and gaps. The parent owns reasoning, resolution and persistence. If independent challenge cannot run, label that stage incomplete instead of claiming the full cycle passed.
 
 ## Tools, stop and retain
 

@@ -43,15 +43,15 @@ Discover what this host actually provides before relying on any of it. Keep four
 | Situation | Path |
 | --- | --- |
 | One to three claims, primary sources likely findable, the answer fits in a few fetches | Inline, at any effort level |
-| Contradicting evidence must be hunted symmetrically, a landscape of alternatives or prior art is needed, or a plan carries many interacting claims | One or more read-only `worker-researcher` dispatches, when authorized |
+| Contradicting evidence must be hunted symmetrically, a landscape of alternatives or prior art is needed, or a plan carries many interacting claims | An independently available research agent with read-only source access, when authorized; otherwise investigate inline |
 | An internal-capability question across a docs or code tree | `Explore`, read-only, with the scan brief below |
-| The idea is a skill | `skills-author-worker` |
+| The idea is a skill | Apply `skill-creator` and `writing-skills` inline |
 | A project defines its own research command or governing research skill | That project's route governs; do not bypass an audited route with a bare command or an invented marker |
 | The user explicitly opted in to multi-agent orchestration | The Workflow tool. That opt-in governs orchestration only; it is not a prerequisite for dispatching a single worker the host already permits |
 
 If an optional worker or role file is missing, continue inline where permitted and state the coverage lost. Never invent an agent name, a thread limit, a model setting, or a shutdown capability, and never pass a per-call model or effort override. Authorization to delegate is a separate question from how much research is needed.
 
-Design research systems with `llm-app-patterns` and reusable research-agent prompts with `prompt-engineering-patterns`. Use `web-research` for external evidence, relevant specialist skills for domain method, and the existing strong `worker-researcher` only for bounded independent research or a fresh challenge. The global and project research instructions govern evidence retention, synthesis and stopping.
+Design research systems with `llm-app-patterns` and reusable research-agent prompts with `prompt-engineering-patterns`. Use `web-research` for external evidence, relevant specialist skills for domain method, and an independently available capable research agent only for bounded independent research or a fresh challenge. The global and project research instructions govern evidence retention, synthesis and stopping.
 
 Do not lift archived role prompts into a live workflow. A worker never sub-dispatches; the parent owns direction, synthesis and persistence, and the brief supplies the bounded question, retained evidence, scope, source expectations, competing explanations, falsifying evidence and required handoff.
 

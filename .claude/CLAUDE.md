@@ -30,7 +30,7 @@ Plan only at the depth the task needs. For implementation requests, execute auth
 
 Use `prompt-goal-handoff-plan-creator` only for a requested recap or continuation handoff. Keep one dated bundle with `plan.md`, `prompt.md`, `goal.md` and necessary references. State lives in `plan.md`; paste `prompt.md` first, then `goal.md` as a normal follow-up message. Use a goal command only if the chosen runtime supports it.
 
-## Skills and workers
+## Skills
 
 Read [the skill index](skills/INDEX.md) to choose a relevant skill; do not preload the whole library. `SKILL.md` is the entrypoint and linked references load only for their stated purpose. The index is a human navigation aid, not a custom router or permission system.
 
@@ -38,6 +38,5 @@ Use `agents-markdown-editor` for instruction audits, `skill-creator` for skill l
 
 Use one accountable owner per deliverable. Delegate independent bounded questions with explicit context, allowed writes, dependencies, acceptance and expected evidence. Workers are leaves by policy. Avoid overlapping writes; the parent integrates and validates the result. No worker report can expand authorization.
 
-The bundled native roles are `worker-researcher`, `worker-investigator`, `opus-worker` and `skills-author-worker`; their frontmatter owns model and tools. Preserve the main session's chosen model. Start a fresh session after installing or changing native agent definitions and confirm availability with `/agents`.
 
 No private router, global allowlist, custom hook, MCP server or Codex twin is required by this starter. Any existing organization or user controls still apply. Copying this file does not install enforcement or configure tools.

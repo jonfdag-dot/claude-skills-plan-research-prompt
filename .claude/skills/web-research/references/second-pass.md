@@ -36,7 +36,7 @@ For each load-bearing claim whose best source isn't primary, look for the primar
 
 Phrase each verification search as a neutral question about the fact rather than as the earlier claim, and use the key name or figure exactly as written in at least one query. A claim you feel sure of still needs a source opened in this pass. A claim is VERIFIED when a primary source states it directly and either that source is the authority over the fact (a vendor's docs for its own product, a statute for the law) or an independent second source agrees; sources are independent only when neither derives from the other.
 
-Two kinds of independent check exist, and they stay distinct. A neutral verifier gets only the neutral questions for the load-bearing claims, without the previous answer, so its findings aren't shaped by it. The library's challenger (research CLAUDE.md) gets the proposed conclusion and evidence inventory and attacks the synthesis. When delegating either, dispatch `worker-researcher` with no call-site model override so its frontmatter pin applies; the spawn hook decides where it may run.
+Two kinds of independent check exist, and they stay distinct. A neutral verifier gets only the neutral questions for the load-bearing claims, without the previous answer, so its findings aren't shaped by it. The library's challenger (research CLAUDE.md) gets the proposed conclusion and evidence inventory and attacks the synthesis. Delegate either check only to an independently available agent whose tools and permissions fit the task. This kit supplies no agent definitions or spawn hook. Report an unavailable independent check rather than claiming it passed.
 
 ## 6. Sweep for what the first pass missed
 

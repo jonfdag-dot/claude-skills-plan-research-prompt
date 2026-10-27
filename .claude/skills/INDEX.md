@@ -1,18 +1,17 @@
 # Skill index
 
-These nine skills are adapted Claude copies. Read an entrypoint when its task fits, then only the supporting references needed. The index is maintained by hand and is not a machine router. Commands below are native skill names after installation.
+These eight skills are adapted Claude copies. Read an entrypoint when its task fits, then only the supporting references needed. The index is maintained by hand and is not a machine router. Commands below are native skill names after installation.
 
 | Skill | Use | Example command |
 | --- | --- | --- |
 | [agents-markdown-editor](agents-markdown-editor/SKILL.md) | Audit loaded instructions and apply authorized surgical edits. | `/agents-markdown-editor` |
-| [skill-creator](skill-creator/SKILL.md) | Create, import, register and maintain skills or native workers. | `/skill-creator` |
+| [skill-creator](skill-creator/SKILL.md) | Create, import, register and maintain skills. | `/skill-creator` |
 | [writing-skills](writing-skills/SKILL.md) | Write skill descriptions, instructions, examples and selective references. | `/writing-skills` |
 | [subagent-driven-development](subagent-driven-development/SKILL.md) | Plan and coordinate bounded delegated work with evidence and integration. | `/subagent-driven-development` |
 | [prompt-goal-handoff-plan-creator](prompt-goal-handoff-plan-creator/SKILL.md) | Create a requested continuation bundle with prompt, goal and state. | `/prompt-goal-handoff-plan-creator` |
 | [web-research](web-research/SKILL.md) | Research claims, challenge consequential conclusions and retain evidence. | `/web-research` |
 | [brainstorm](brainstorm/SKILL.md) | Pressure-test an idea with alternatives, research and material counterexamples. | `/brainstorm` |
 | [prompt-engineering-patterns](prompt-engineering-patterns/SKILL.md) | Write reusable model prompts and worker briefs with clear contracts. | `/prompt-engineering-patterns` |
-| [using-superpowers](using-superpowers/SKILL.md) | Choose the skill that owns the requested result. | `/using-superpowers` |
 
 ## Resource map
 
@@ -128,11 +127,6 @@ Each named skill folder has a SKILL.md entrypoint. The following files retain de
 | [references/sources-and-contradictions.md](prompt-engineering-patterns/references/sources-and-contradictions.md) | Sources, Contradictions, and Dropped Claims |
 | [references/subagent-dispatch.md](prompt-engineering-patterns/references/subagent-dispatch.md) | Wording a Subagent Brief |
 | [references/system-prompts.md](prompt-engineering-patterns/references/system-prompts.md) | System Prompt Design |
-
-### using-superpowers
-
-| Resource | Purpose |
-| --- | --- |
 
 ## Static checks
 

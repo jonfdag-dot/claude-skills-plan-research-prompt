@@ -24,7 +24,7 @@ Use [native-role-routing.md](references/native-role-routing.md) before selecting
 
 ## Roles and evidence
 
-Use the active project's required specialist first. Otherwise the bundled `worker-researcher` handles external evidence, `worker-investigator` handles read-only diagnosis/review, `skills-author-worker` handles skills and `opus-worker` handles implementation/integration. Discover actual role availability; do not infer permissions or model policy from a name. The native definitions inherit the main model. All workers are leaves by policy; only the parent dispatches.
+Use the active project's required specialist first. This kit supplies no native agent definitions. Use only agents already available in the host environment, with tools appropriate to the assignment. Discover actual role availability; do not infer permissions or model policy from a name. All workers are leaves by policy; only the parent dispatches.
 
 The research worker has no shell: the parent supplies retained-library `find`/`show` results and necessary executable-check output. Workers return evidence packets, never allocate permanent IDs or write the shared research library. The parent reconciles and saves a batch.
 

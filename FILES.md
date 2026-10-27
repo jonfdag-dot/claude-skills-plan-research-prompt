@@ -5,12 +5,6 @@ This is the complete shipped tree, excluding local Git metadata. Read the parent
 ```text
 claude-skills-plan-research-prompt/
 ├── .claude/
-│   ├── agents/
-│   │   ├── README.md
-│   │   ├── opus-worker.md
-│   │   ├── skills-author-worker.md
-│   │   ├── worker-investigator.md
-│   │   └── worker-researcher.md
 │   ├── skills/
 │   │   ├── agents-markdown-editor/
 │   │   │   ├── references/
@@ -96,8 +90,6 @@ claude-skills-plan-research-prompt/
 │   │   │   ├── SKILL.md
 │   │   │   ├── implementer-prompt.md
 │   │   │   └── task-reviewer-prompt.md
-│   │   ├── using-superpowers/
-│   │   │   └── SKILL.md
 │   │   ├── web-research/
 │   │   │   ├── references/
 │   │   │   │   ├── evidence-and-retention.md

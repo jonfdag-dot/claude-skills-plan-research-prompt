@@ -14,7 +14,7 @@ Use `web-research` and relevant installed expertise. Research the remaining boun
 
 Explicit deep research requires framing, retained-evidence retrieval, bounded investigation, competing explanations, material alternatives, counterevidence, synthesis, independent challenge of consequential conclusions, citation/calculation/coverage verification and retention. Keep the parent responsible for reasoning and final conclusions.
 
-Use an available strong `worker-researcher` only for an independent bounded question or fresh challenge that helps. Supply question, scope, existing records, proposed conclusion and original pointers. Workers return evidence packets and matching IDs; the parent owns persistence. Disclose unavailable challenge or source access rather than marking an incomplete cycle complete.
+Use an independently available capable research agent only for an independent bounded question or fresh challenge that helps. Supply question, scope, existing records, proposed conclusion and original pointers. Workers return evidence packets and matching IDs; the parent owns persistence. Disclose unavailable challenge or source access rather than marking an incomplete cycle complete.
 
 Separate documented facts, producer claims, measurements, inference and unknowns. Resolve disagreement by version, scope, date and methods; preserve unresolved contradictions. Stop when required questions are supported or explicitly bounded and additional research is unlikely to change the decision.
 
