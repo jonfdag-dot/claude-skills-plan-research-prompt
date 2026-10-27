@@ -27,7 +27,7 @@ llm-plan-links/
 
 1. Add a `projects.json` entry with `id`, `source_root`, `plan_directory`, `imports: []`, `legacy_subtrees: []`, `live_in_complete: []`. Use a real absolute source path, `~/...`, or a source path relative to this library root. Runtime config roots conventionally use `claude` as the ID for `.claude`.
 2. Add the human row to `projects.md`. Create the project folder and copy the five empty ROLES sections from the starter example, clearing its reference row and counts.
-3. Create `complete/`, `complete/deferred/`, `complete/eval-runs/`, `eval-runs/`, `reviews/` and `.session/`; keep empty directories with `.gitkeep` where needed. Session state remains gitignored.
+3. Create `complete/`, `complete/deferred/`, `complete/eval-runs/`, `eval-runs/`, `reviews/` and `.session/`; keep empty directories with `.gitkeep` where needed. Keep private session state out of commits; only the empty scaffold belongs in the starter.
 4. Merge the routing paragraphs from `scripts/templates/project-CLAUDE.md.template` into the active project's instructions, replacing every path and ID with its installed value. Keep that project's architecture, build/test commands and approvals.
 5. Run the validator. Do not install a second plan store or make application code depend on this library.
 

@@ -11,8 +11,8 @@ This repository holds reusable working conventions, nine skills and four native 
 | skills/&lt;name&gt;/scripts/ | Static instruction, skill or handoff validation. |
 | skills/&lt;name&gt;/assets/ | Non-executable templates to copy and fill. |
 | [agents/README.md](agents/README.md) | Worker selection, native tools and adaptation instructions. |
-| [PORTABILITY.md](PORTABILITY.md) | Export changes, removed dependencies and remaining runtime limits. |
-| export-manifest.json | Source and delivered hashes for exported skill resources; paths contain no private machine identifiers. |
+
+See [the parent guide](../CLAUDE.md#portability-and-rights) for portability, source notices and validation limits.
 
 For use across projects, review and merge the contents into your existing `~/.claude/`, one file at a time. Put the two library repositories at `~/llm-plan-links` and `~/llm-research-links`, or update all affected routes. Preserve existing skills with the same names until you have compared them. Do not replace your whole configuration directory.
 

@@ -11,13 +11,9 @@ claude-skills-plan-research-prompt/
 ├── CLAUDE.md                         this guide and parent instructions
 ├── README.md                         first-open pointer
 ├── FILES.md                          complete file tree
-├── VERIFICATION.md                   actual export checks and limits
-├── .gitignore                        excludes runtime state and local files
 ├── .claude/                          component 1: reusable agent setup
 │   ├── CLAUDE.md                     shared conventions and library routes
 │   ├── README.md                     installation and runtime boundaries
-│   ├── PORTABILITY.md                export adaptations and omitted machinery
-│   ├── export-manifest.json          resource provenance and delivered hashes
 │   ├── agents/
 │   │   ├── README.md                 native roles and tool boundaries
 │   │   ├── worker-researcher.md       research and independent challenge
@@ -55,12 +51,12 @@ claude-skills-plan-research-prompt/
     │   ├── complete/                 completed, superseded and deferred history
     │   ├── eval-runs/                evidence for admitted evaluations
     │   ├── reviews/                  review evidence and decisions
-    │   └── .session/                 ignored temporary resumable state
+    │   └── .session/                 temporary resumable state
     ├── scripts/                      role reader, validator and templates
     └── tests/                        deterministic regression checks
 ```
 
-Each skill folder contains `SKILL.md` plus its selected references, assets or scripts. Use [the skill resource map](.claude/skills/INDEX.md) for each file's purpose, [the research index](llm-research-links/INDEX.md) for evidence files and [the planning index](llm-plan-links/INDEX.md) for plan files. [FILES.md](FILES.md) expands every shipped file. Empty `.gitkeep` files preserve directory scaffolds; `.gitignore` files exclude local session state and incidental runtime files.
+Each skill folder contains `SKILL.md` plus its selected references, assets or scripts. Use [the skill resource map](.claude/skills/INDEX.md) for each file's purpose, [the research index](llm-research-links/INDEX.md) for evidence files and [the planning index](llm-plan-links/INDEX.md) for plan files. [FILES.md](FILES.md) expands every shipped file. Empty `.gitkeep` files preserve the directory scaffolds required by the library validators. Keep private session contents, credentials, logs and generated caches out of commits; this kit ships no ignore files.
 
 ## Read and try it before installation
 
@@ -108,6 +104,29 @@ For instruction maintenance, use `/agents-markdown-editor` with named files and 
 
 ## Repository and permission boundaries
 
-This public repository tracks all three component directories together, including the hidden `.claude/` folder. A normal clone includes every skill, template and library; no submodules are required. The two library folders can also be copied out and maintained independently. Local session contents remain ignored while `.gitkeep` preserves the required empty scaffold.
+This public repository tracks all three component directories together, including the hidden `.claude/` folder. A normal clone includes every skill, template and library; no submodules are required. The two library folders can also be copied out and maintained independently. Preserve the empty `.gitkeep` scaffolds and keep private runtime artifacts outside the published file set.
 
-The copied skills are portable adaptations, with source notices preserved and changes listed in `.claude/PORTABILITY.md`. This is a Claude-only setup; Codex parity, custom BM25 routing, private hooks, model pins, credentials, logs, memories and personal research were not exported. Existing recipient controls still apply. No instruction file or plan can authorize deployment, deletion, spending, publication or access-policy changes.
+No instruction file or plan can authorize deployment, deletion, spending, publication or access-policy changes. Existing recipient permissions and organization controls still apply.
+
+## Portability and rights
+
+These skills are portable adaptations of an existing Claude setup. Machine paths, private project history and account-specific model pins were removed. Workers use `model: inherit`; the native definitions own their tools. The researcher has no shell, so the parent supplies retained-library search results and owns evidence persistence. Handoffs use current-session user messages and authorized supplied originals, without scanning private transcript archives.
+
+This kit uses native Claude discovery and a maintained human skill index. It includes no custom BM25 router, pool launcher, global spawn allowlist, hook installation, MCP configuration or Codex runtime. Optional specialist names are leads to install deliberately, not bundled capabilities. Ordinary skill changes use static checks; they do not authorize model-evaluation campaigns.
+
+Library routes default to `~/llm-plan-links` and `~/llm-research-links`. Relative reading links work while the components remain siblings. The plan scripts accept absolute, home-relative and library-relative source roots; their instruction mirrors must match and remain within 200 lines. Research examples use generic labels. The sample R-0001 describes local format, with Checked UNKNOWN and no claim of external inspection.
+
+Preserve the [skill-creator Apache 2.0 license](.claude/skills/skill-creator/LICENSE.txt), the [retained MIT notice](.claude/skills/agents-markdown-editor/references/licenses/OthmanAdi-planning-with-files-LICENSE.txt) and other source attribution. Their terms apply to the respective material; this kit assigns no blanket license to unrelated content. Git history retains the original export provenance.
+
+## Validate the kit
+
+Run these checks from the corresponding library directory:
+
+```sh
+python3 -B scripts/validate.py .
+python3 -B -m unittest discover -s tests
+```
+
+For skill metadata, run `python3 -B .claude/skills/skill-creator/scripts/quick_validate.py <skill-folder>` from the parent. Use the instruction auditor and handoff checker only for their relevant tasks; their entrypoints document the arguments. Keep local Markdown links, domain indexes and plan-role pointers consistent when moving files.
+
+These offline checks establish structure and tool behavior, not factual truth, external URL availability, model compliance or recipient permissions. After installation, start a fresh Claude session, inspect `/memory` and `/agents`, and invoke a relevant skill to verify native discovery. No recipient-specific activation or model evaluation is implied by a passing offline check.

@@ -119,11 +119,8 @@ claude-skills-plan-research-prompt/
 │   │   │   │   └── render-graphs.js
 │   │   │   └── SKILL.md
 │   │   └── INDEX.md
-│   ├── .gitignore
 │   ├── CLAUDE.md
-│   ├── PORTABILITY.md
-│   ├── README.md
-│   └── export-manifest.json
+│   └── README.md
 ├── llm-plan-links/
 │   ├── scripts/
 │   │   ├── templates/
@@ -149,7 +146,6 @@ claude-skills-plan-research-prompt/
 │   ├── tests/
 │   │   ├── test_roles.py
 │   │   └── test_validate.py
-│   ├── .gitignore
 │   ├── AGENTS.md
 │   ├── CLAUDE.md
 │   ├── INDEX.md
@@ -178,7 +174,6 @@ claude-skills-plan-research-prompt/
 │   │   ├── test_validate_domains.py
 │   │   ├── test_validate_line_links.py
 │   │   └── test_validate_ownership.py
-│   ├── .gitignore
 │   ├── AGENTS.md
 │   ├── CLAUDE.md
 │   ├── INDEX.md
@@ -187,9 +182,7 @@ claude-skills-plan-research-prompt/
 │   ├── sources.md
 │   ├── taxonomy.md
 │   └── topics.md
-├── .gitignore
 ├── CLAUDE.md
 ├── FILES.md
-├── README.md
-└── VERIFICATION.md
+└── README.md
 ```

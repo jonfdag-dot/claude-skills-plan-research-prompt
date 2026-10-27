@@ -71,4 +71,4 @@ python3 -B scripts/research.py show R-0001
 
 To save new findings, fill the JSON from `research.py template`, run `research.py add --dry-run packet.json`, then `research.py add packet.json`. Validate either library from its root with `python3 -B scripts/validate.py .`.
 
-[Export notes and licenses](.claude/PORTABILITY.md) · [Verification results](VERIFICATION.md)
+[Portability and licenses](CLAUDE.md#portability-and-rights) · [Validation](CLAUDE.md#validate-the-kit)
