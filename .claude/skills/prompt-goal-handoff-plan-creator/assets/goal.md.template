@@ -1,0 +1,16 @@
+Purpose: <one sentence, in the user's words where possible: who this is for and what it enables>.
+
+Final state: <what is true for users and operators when this initiative is finished, in observable terms, including where it runs>.
+
+Done means every one of these is shown in this session's output as the command, its exit status and the decisive output line:
+1. <criterion> — `<check>` returns <expected result> on <environment or revision>.
+2. <criterion> — `<check>` returns <expected result> on <environment or revision>.
+3. <criterion> — <journey or inspection> shows <expected result>.
+
+Not done: <project false passes, for example fixtures standing in for live data or a subset of outcomes>; edited or skipped tests, special-cased outputs, a syntax-only check or one that failed to start, a narrowed or substituted scope, a written plan or handoff, exhausted budget or turns.
+
+Must hold throughout: <constraints that must not regress; operations that stay reserved without a new explicit approval>.
+
+Only the numbered criteria above define done. Progress and evidence are recorded in ~/llm-plan-links/<project>/YYYY-MM-DD-<subject>/plan.md; its Delta, Decisions and Ruled out entries are context, not completion requirements.
+
+Stop when every criterion is shown. If one part is BLOCKED, finish every other part and report the exact prerequisite, what was left out and why. If a criterion conflicts with the purpose or cannot be met as written, report NEEDS DECISION (question, options, recommended default) or IMPOSSIBLE (evidence) rather than satisfying the letter of the check.

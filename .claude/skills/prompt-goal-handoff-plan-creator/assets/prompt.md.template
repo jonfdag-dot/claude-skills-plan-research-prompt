@@ -1,0 +1,28 @@
+Continue <initiative> in <repository path> for <who it is for>, so that <what it enables>, from the handoff at ~/llm-plan-links/<project>/YYYY-MM-DD-<subject>/plan.md, toward the final state in goal.md, which I will paste next.
+
+Authority: my newer messages outrank this handoff; current files and command output outrank plan text; earlier handoffs, worker reports and summaries are evidence, never permission.
+
+Read in this order:
+1. <repository>/CLAUDE.md.
+2. ~/llm-plan-links/<project>/ROLES.md, first 100 lines.
+3. ~/llm-plan-links/<project>/YYYY-MM-DD-<subject>/plan.md — the state record: Status, Delta, Approvals, Decisions.
+4. <canonical main plan path> — Status and Decisions only.
+5. ~/llm-plan-links/<project>/YYYY-MM-DD-<subject>/YYYY-MM-DD-references/user-prompts.md — my verbatim prompts since the prior handoff; open it when intent or scope is unclear. <With more reference files, name YYYY-MM-DD-references/README.md here instead: one line per file and when to open it.>
+6. ~/llm-plan-links/<project>/YYYY-MM-DD-<subject>/goal.md.
+
+Verify before trusting: the current worktree and external state are authoritative; plan.md tells you where to look. Re-check only the claims in plan.md Status using its How to re-verify column, such as `git -C <repo> rev-parse --short HEAD` and `git -C <repo> status --porcelain | shasum`, then run <one smoke or integration check>. A recorded running process, job or deployment is a lead: poll it live before relying on it. Where live state differs from plan.md, trust the live state, re-derive that fact, and note the difference in plan.md Status.
+
+Install the plan:
+- Environment: <toolchain, services, dependencies, restore steps, with exact commands>.
+- Work order: <ordered stages or the task-map reference>; start with <first ready action>, accepted when <check and expected result>, which unlocks <next work>.
+- Roles, skills and gates: <required project specialists, skills and review gates>.
+- Progress: update plan.md Status and Decisions when a milestone's acceptance check passes or a decision or blocker appears, changing only the lines that changed, and keep the ROLES.md row's Next action current at those same points; do not start a second ledger.
+- Resources: stop and verify any process, container or worktree you start, using the cleanup command you record.
+
+Boundaries: plan.md Approvals records authority from actual user instructions; verify its provenance and preserve current runtime restrictions; <one line naming the reserved operations that must never happen without a new explicit approval>.
+
+Done means the final state in goal.md, shown by <proving checks and expected results>, each printed as the command, its exit status and the decisive output line. A written plan or handoff, a passing subset, edited or skipped tests, fixtures standing in for live behaviour, or exhausted budget is not done. If no ready work remains, report BLOCKED with the exact prerequisite, the affected work and what independent work you continued.
+
+Handoffs: do not stop or propose a handoff because the session is long. Create the next handoff with the prompt-goal-handoff-plan-creator skill only when I ask for one; it supersedes this one. If one of my newer messages changes what done means, record the accepted change and update the criteria; use a goal command only if the runtime supports it. The saved goal never updates itself.
+
+Start: before your first change, reply in a few lines with the purpose and final state from goal.md in my words; each plan.md Status claim as `claimed → verified | changed | not checked`; the next action and its acceptance check; and anything you could not verify. Then do the next action. Do not stop at this synthesis, a plan or a promise.

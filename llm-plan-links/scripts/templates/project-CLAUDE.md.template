@@ -1,0 +1,21 @@
+# <Project name>
+
+Purpose: <what this source repository builds and who uses it>.
+Stack and entrypoints: <actual framework, important modules and architecture constraints>.
+Build: `<real command>`.
+Test: `<real command>`.
+
+## Shared planning
+
+Plans: create durable plans in <absolute-plan-library>/<registered-project-id>/, update its ROLES.md in the same change, and follow the library's CLAUDE.md and README.md for naming, lifecycle and validation. Read the index's first 100 lines, then the selected main plan. Report the exact file, next action and observed checks. Keep durable plans out of this repository's plans/ and docs/plans/ folders.
+
+## Shared research
+
+Before external research, follow <absolute-research-library>/README.md and search retained findings through its research.py CLI. Inspect selected records and their qualifications, investigate remaining gaps and refresh facts that need current evidence. Use web-research; explicit deep research includes counterevidence, fresh challenge of consequential conclusions, synthesis, citation verification and retention. Save only reusable findings that informed the work and report saved IDs or a complete pending packet.
+
+## Project boundaries
+
+<Actual scope, data invariants, ownership and required checks>.
+<Deployment/publication/deletion/spending approvals and rollback requirements that really govern this project>.
+
+Merge these paragraphs with existing instructions. Replace every placeholder; do not erase project-specific conventions or copy the entire starter guide into this file.

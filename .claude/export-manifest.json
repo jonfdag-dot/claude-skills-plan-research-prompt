@@ -1,0 +1,566 @@
+{
+  "runtime": "claude",
+  "other_runtime_parity": "N/A; Claude-only distribution",
+  "resources": [
+    {
+      "file": ".claude/skills/agents-markdown-editor/SKILL.md",
+      "delivered_sha256": "76f1594d2a05677f5b29b1ae109a16a077401433782768c09b272b993e175908",
+      "source": "agents-markdown-editor/SKILL.md",
+      "source_sha256": "ce87ee2ceebbf32a75c3893834793130c57cd30e8db9c7e8bbabccd0a3e79a1f",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/code-first-cleanup.md",
+      "delivered_sha256": "65734ee09857b6314acec208ef00e059fdb8aefb332e44e8af621f008bd9de5e",
+      "source": "agents-markdown-editor/references/code-first-cleanup.md",
+      "source_sha256": "0b047b37b6c24bddcc94777ca9b88bdc69f363ccbedafe9e862af0d6392b79c4",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/cut-classes.md",
+      "delivered_sha256": "f13d4ec980ec66d2d49d6d9eddaa3508fa5ed0e6fe76400e5485bb7d0a45e1be",
+      "source": "agents-markdown-editor/references/cut-classes.md",
+      "source_sha256": "526e21744f97b80e2260469edcd2ef82fc63c36917b37503dc76c95e004b65a9",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/gates.md",
+      "delivered_sha256": "28765d1e78c76a3cef0fbc0fd183c0815447bffdcedd930674b52a45398c55e9",
+      "source": "agents-markdown-editor/references/gates.md",
+      "source_sha256": "28765d1e78c76a3cef0fbc0fd183c0815447bffdcedd930674b52a45398c55e9",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/licenses/OthmanAdi-planning-with-files-LICENSE.txt",
+      "delivered_sha256": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84",
+      "source": "agents-markdown-editor/references/licenses/OthmanAdi-planning-with-files-LICENSE.txt",
+      "source_sha256": "4f2e5ecfaa4e0833621cfe54c0bdc2f60f086c0925540d7bdc713517eafb3c84",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/loaded-set.md",
+      "delivered_sha256": "f948f87fa0d8d209bdab9a1668b23e95c19cc149a98d12bfc77a97144edab56c",
+      "source": "agents-markdown-editor/references/loaded-set.md",
+      "source_sha256": "f948f87fa0d8d209bdab9a1668b23e95c19cc149a98d12bfc77a97144edab56c",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/model-overlays.md",
+      "delivered_sha256": "ca38fb0589b708e3229db2c07029c89facc67a2effe0bdde420abe62499d11d8",
+      "source": "agents-markdown-editor/references/model-overlays.md",
+      "source_sha256": "c0a8d6ed91c87ba47e007f018406dd7c127c6967f06450551669c2a293ba4a92",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/placement-model.md",
+      "delivered_sha256": "39d8391d1cea6ccc735a4129fe33f458dc06aaa8b9c426c32137bd768b7551ab",
+      "source": "agents-markdown-editor/references/placement-model.md",
+      "source_sha256": "39d8391d1cea6ccc735a4129fe33f458dc06aaa8b9c426c32137bd768b7551ab",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/prove.md",
+      "delivered_sha256": "b6b8841171fd860ad995bc14eed3719b3439021cdf46822879d2bb68ae441316",
+      "source": "agents-markdown-editor/references/prove.md",
+      "source_sha256": "f1f279b92dd44229e41603874c7d578f97a36783af7b67b6265efb0ff437f09d",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/review-record.md",
+      "delivered_sha256": "c3cde63c1c443b92a3445b0fb5f58f86cdd329bddf407055141c4e8105087a42",
+      "source": "agents-markdown-editor/references/review-record.md",
+      "source_sha256": "f47780606a0a86e2c29f24ab9feffd7763d204e76f6891857f887bb003e5a37d",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/rule-grammar.md",
+      "delivered_sha256": "5dafd1ac2862e9fef7640451ae1899178532dcc6315189b543b9ba9bdf66b568",
+      "source": "agents-markdown-editor/references/rule-grammar.md",
+      "source_sha256": "5dafd1ac2862e9fef7640451ae1899178532dcc6315189b543b9ba9bdf66b568",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/references/worked-examples.md",
+      "delivered_sha256": "fbd5e00e699eb1605429694e46fd9cffa59a84102072b6e5fa0e77331fc1f4e0",
+      "source": "agents-markdown-editor/references/worked-examples.md",
+      "source_sha256": "dd4a230b960d5604a562d9fbd9f8a856c4f441431fc3c4f42556e0c6f375caa3",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/agents-markdown-editor/scripts/steward-lint.py",
+      "delivered_sha256": "98ad002afeba51fc3db0f51b6d5f377ee0255182e85b6f37a61182f818e49957",
+      "source": "agents-markdown-editor/scripts/steward-lint.py",
+      "source_sha256": "98ad002afeba51fc3db0f51b6d5f377ee0255182e85b6f37a61182f818e49957",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/brainstorm/SKILL.md",
+      "delivered_sha256": "b0c2457493f5be988f7c5fdfa2572fa6e377e1cfdd2f725a14373b8c35acd281",
+      "source": "brainstorm/SKILL.md",
+      "source_sha256": "cf4dd626d8d1f8237cfe5c33c19bc999982909e42e3697399d7e935a73b6b5ce",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/brainstorming.md",
+      "delivered_sha256": "db7425830c4b39bcc9e7337062c383b534cb0b4f5aae4d5c6c471d821abd9665",
+      "source": "brainstorm/references/brainstorming.md",
+      "source_sha256": "db7425830c4b39bcc9e7337062c383b534cb0b4f5aae4d5c6c471d821abd9665",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/challenge.md",
+      "delivered_sha256": "05d6d2f0b50b55b81e738d3838a9dc530082eee0eeeafd66a45f0c14ea398ca3",
+      "source": "brainstorm/references/challenge.md",
+      "source_sha256": "05d6d2f0b50b55b81e738d3838a9dc530082eee0eeeafd66a45f0c14ea398ca3",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/domain-expertise.md",
+      "delivered_sha256": "9118239c4b096d62bda5ff86d37ec73bfe522aa9be2c41c21ca3c2f5ddbbcb31",
+      "source": "brainstorm/references/domain-expertise.md",
+      "source_sha256": "4bebcf89fb177096124ae2393d2523fadd875763527d04abd8b218d7d55826d3",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/epistemics.md",
+      "delivered_sha256": "982d77167be200681a1f02f32cb732d772a6d09df04a17d3cceceac063ac796f",
+      "source": "brainstorm/references/epistemics.md",
+      "source_sha256": "982d77167be200681a1f02f32cb732d772a6d09df04a17d3cceceac063ac796f",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/knowledge-library.md",
+      "delivered_sha256": "fd7c19deacd918623194868dfb093385ceab4d402f5aaebbd8bbed25a652dce1",
+      "source": "brainstorm/references/knowledge-library.md",
+      "source_sha256": "48292237fd7b200427d35f4beb99b8055947192f1f813d2966f868d25102dbbd",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/lenses.md",
+      "delivered_sha256": "7638fbb7e9ba84ac37fa8b9be12564ada0e5354b91ccd5eb531887a7575a591b",
+      "source": "brainstorm/references/lenses.md",
+      "source_sha256": "d04f8d18d925097a7b5259be07bf923af95b1a6666120dab5068c90f2b586d26",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/output-template.md",
+      "delivered_sha256": "8d2788a3fe0a245a25c591de23be9cddbf6b7b5c3f06a73521964f037f08cf93",
+      "source": "brainstorm/references/output-template.md",
+      "source_sha256": "8d2788a3fe0a245a25c591de23be9cddbf6b7b5c3f06a73521964f037f08cf93",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/research-pipeline.md",
+      "delivered_sha256": "a571105c6d8dbd87243888f05f268b0ff53084e512264d0669d990f85b4cfbcc",
+      "source": "brainstorm/references/research-pipeline.md",
+      "source_sha256": "08bbad26b91a7ddf9e99bcab6ca714d3a99832a49167e2b5ebcddc6295f14853",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/brainstorm/references/rules-engine.md",
+      "delivered_sha256": "55f92490ebaa1b022fd9b5c1f6257df8ddcaf6abbdb52774bec377121b155fec",
+      "source": "brainstorm/references/rules-engine.md",
+      "source_sha256": "55f92490ebaa1b022fd9b5c1f6257df8ddcaf6abbdb52774bec377121b155fec",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/SKILL.md",
+      "delivered_sha256": "95c94eca3e6883c34c931fa36b1e6d126279f72360982c5439f14b4f0fff0e47",
+      "source": "prompt-engineering-patterns/SKILL.md",
+      "source_sha256": "95c94eca3e6883c34c931fa36b1e6d126279f72360982c5439f14b4f0fff0e47",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/assets/few-shot-examples.json",
+      "delivered_sha256": "9493f7272325e2869fd443ef8626174c6b7babaa0a8185c919b57187114ec75c",
+      "source": "prompt-engineering-patterns/assets/few-shot-examples.json",
+      "source_sha256": "9493f7272325e2869fd443ef8626174c6b7babaa0a8185c919b57187114ec75c",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/assets/prompt-template-library.md",
+      "delivered_sha256": "8a1fd5d8fe09c405cc2fbd1e6268279b061f4bcc78009237c3f38784a258c0d7",
+      "source": "prompt-engineering-patterns/assets/prompt-template-library.md",
+      "source_sha256": "8a1fd5d8fe09c405cc2fbd1e6268279b061f4bcc78009237c3f38784a258c0d7",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/chain-of-thought.md",
+      "delivered_sha256": "891cdbcd27d7f804c54d77486d2b5ca8a043843e4482e902176869be76ba4909",
+      "source": "prompt-engineering-patterns/references/chain-of-thought.md",
+      "source_sha256": "891cdbcd27d7f804c54d77486d2b5ca8a043843e4482e902176869be76ba4909",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/details.md",
+      "delivered_sha256": "f5e1803efaca408da900a3601af9aebe32984ba1f9cdb9e085254220799e8d33",
+      "source": "prompt-engineering-patterns/references/details.md",
+      "source_sha256": "f5e1803efaca408da900a3601af9aebe32984ba1f9cdb9e085254220799e8d33",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/few-shot-learning.md",
+      "delivered_sha256": "ed18979eef189dda1f832c53d69529615cbedc6ad312c3fc5e4fe1005074a75a",
+      "source": "prompt-engineering-patterns/references/few-shot-learning.md",
+      "source_sha256": "ed18979eef189dda1f832c53d69529615cbedc6ad312c3fc5e4fe1005074a75a",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/long-horizon-context.md",
+      "delivered_sha256": "86ff66d74e4003eb25e2db8be18e21b398a29d40a8c051e3c60e7a14694ea665",
+      "source": "prompt-engineering-patterns/references/long-horizon-context.md",
+      "source_sha256": "86ff66d74e4003eb25e2db8be18e21b398a29d40a8c051e3c60e7a14694ea665",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/orchestration-modes.md",
+      "delivered_sha256": "69a9fa6b830b9929ab612fac81eedd23f844b268905a4646747aa4dbdcbce2d3",
+      "source": "prompt-engineering-patterns/references/orchestration-modes.md",
+      "source_sha256": "69a9fa6b830b9929ab612fac81eedd23f844b268905a4646747aa4dbdcbce2d3",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/prompt-architect.md",
+      "delivered_sha256": "e4c2e64acab863771c0314d39e825f33d3d65b0a941199b589ebadce76c15d5d",
+      "source": "prompt-engineering-patterns/references/prompt-architect.md",
+      "source_sha256": "e4c2e64acab863771c0314d39e825f33d3d65b0a941199b589ebadce76c15d5d",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/prompt-optimization.md",
+      "delivered_sha256": "fbf4467ee7d14ca415a58163bac65cf294d4e4c2537b34037c686d89e172d347",
+      "source": "prompt-engineering-patterns/references/prompt-optimization.md",
+      "source_sha256": "fbf4467ee7d14ca415a58163bac65cf294d4e4c2537b34037c686d89e172d347",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/prompt-templates.md",
+      "delivered_sha256": "3d70b1dff53d325a3ff5f762d6c4c287a28247230de0d23ca6c9d83af0c2a6e3",
+      "source": "prompt-engineering-patterns/references/prompt-templates.md",
+      "source_sha256": "3d70b1dff53d325a3ff5f762d6c4c287a28247230de0d23ca6c9d83af0c2a6e3",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/sources-and-contradictions.md",
+      "delivered_sha256": "5dfe80ce7883ddf61701325b82e98c0f6a877d298c7a27410106a3fedd320048",
+      "source": "prompt-engineering-patterns/references/sources-and-contradictions.md",
+      "source_sha256": "27412355b70f3f37fed8a755163ecb066b311f03dcc0c7a82976c5f06fcd264d",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/subagent-dispatch.md",
+      "delivered_sha256": "deec6f0cfe5453847a5ac00c8873509465e3f47e1e86e3114a8984117fc57656",
+      "source": "prompt-engineering-patterns/references/subagent-dispatch.md",
+      "source_sha256": "deec6f0cfe5453847a5ac00c8873509465e3f47e1e86e3114a8984117fc57656",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-engineering-patterns/references/system-prompts.md",
+      "delivered_sha256": "d3bc07163e364af9d8f8f1ba259e88056800a2c4ec6658bb0bc545d9b1d4b001",
+      "source": "prompt-engineering-patterns/references/system-prompts.md",
+      "source_sha256": "d3bc07163e364af9d8f8f1ba259e88056800a2c4ec6658bb0bc545d9b1d4b001",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/SKILL.md",
+      "delivered_sha256": "896218a9b08fbe3a27c5fe5a2ce7e8a71a1d7bd9fdaefa1755c665f9ee085179",
+      "source": "prompt-goal-handoff-plan-creator/SKILL.md",
+      "source_sha256": "5bd6bcbf91e49d8fb0ea8e3092aa5cbb1a07c855016b1413767a36f9fc093925",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/assets/goal.md.template",
+      "delivered_sha256": "d8bbed61e63a8c5687f3af8c69023c25d4ee29c585c2c4966e702f7c82eaa239",
+      "source": "prompt-goal-handoff-plan-creator/assets/goal.md.template",
+      "source_sha256": "297b18705e48b1fe37d5c04debd051f20cf95b4d8f5bba3ef5eba3e0f909049d",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/assets/plan.md.template",
+      "delivered_sha256": "2bce6f3203d1909db2acf30222af6c7dafde5cd37d3a33708ba17700d4dae602",
+      "source": "prompt-goal-handoff-plan-creator/assets/plan.md.template",
+      "source_sha256": "2bce6f3203d1909db2acf30222af6c7dafde5cd37d3a33708ba17700d4dae602",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/assets/prompt.md.template",
+      "delivered_sha256": "0d0a4059c2f62d57b9964234e71a57910fc9e62d257cf6c49e707ef736d63bba",
+      "source": "prompt-goal-handoff-plan-creator/assets/prompt.md.template",
+      "source_sha256": "37724833159a646280cb775a526860261cb043a42fd745353923bc01e53004e6",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/assets/references-README.md.template",
+      "delivered_sha256": "54022a865b48bbbfac14f9c2b2d07760930d54bf4452e251a6b0ad593284e595",
+      "source": "prompt-goal-handoff-plan-creator/assets/references-README.md.template",
+      "source_sha256": "12c84666d7e5dd5ea5214979378175d80d217e5375d2c71e57925ee90f83c121",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/references/bundle-contract.md",
+      "delivered_sha256": "19fe6c221bd74bc7fdfb21d0902004deb72b3b9dd96d0618fc2f5fc57a3866cd",
+      "source": "prompt-goal-handoff-plan-creator/references/bundle-contract.md",
+      "source_sha256": "81b4b97bbc83172c5cae185f5019d8672b3e224eeaad3644dd1a1773397cedca",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/references/done-criteria.md",
+      "delivered_sha256": "d845baf3d75ac14937d4394137d7ca458310224b5cddce5bbd9c124e47ae04ee",
+      "source": "prompt-goal-handoff-plan-creator/references/done-criteria.md",
+      "source_sha256": "f44e981eaa7b2bc7e31db58d6aead53a2fccb80962c0d4f2cd170ddae1658063",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/references/evidence.md",
+      "delivered_sha256": "a3b287c87e0caf64e55c097b287c3a38d0c93ec7898e2df0343683eec9cf93ba",
+      "source": "prompt-goal-handoff-plan-creator/references/evidence.md",
+      "source_sha256": "d8935bb6e732740b2f4047fd36c9f2b096103dc096d257f798098c3249fb9dfb",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/prompt-goal-handoff-plan-creator/scripts/check_handoff.py",
+      "delivered_sha256": "eb4745bd7d291f1cebe05c315ca2f18e8a72f9b27e1315bf91a15e9730e00b55",
+      "source": "prompt-goal-handoff-plan-creator/scripts/check_handoff.py",
+      "source_sha256": "eb4745bd7d291f1cebe05c315ca2f18e8a72f9b27e1315bf91a15e9730e00b55",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/skill-creator/LICENSE.txt",
+      "delivered_sha256": "35f751188ae17bca4d5ff6523b1c589414433ecdac49e36d2d587b202e1bdaac",
+      "source": "skill-creator/LICENSE.txt",
+      "source_sha256": "bc6b3af2f331cbc7fb0da1344efb2cbe5877a31498b4d70dbc7000f3405a1362",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/skill-creator/SKILL.md",
+      "delivered_sha256": "719c12d0d5d24bd50c546d5f168ee3277207d2a329948c8546907f71ced7111a",
+      "source": "skill-creator/SKILL.md",
+      "source_sha256": "9b577ad0805ad3e6d412fab84dbffb5d99dc964eee9428acdde41c12ede4c70b",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/skill-creator/assets/template-skill/SKILL.md.template",
+      "delivered_sha256": "8522f06f939b28c527e96d08aeed521ee101a7e158c77e50435dc21acd77e4f2",
+      "source": "skill-creator/assets/template-skill/SKILL.md.template",
+      "source_sha256": "676297a3ba58209b46fd6ee855cde56a2e23a290982334274fb4640bf416e544",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/skill-creator/references/codex-cascade.md",
+      "delivered_sha256": "c45ac071ca4c2a95f1adfd31907303dceb6ada08a0c2e2ee55f8443ffb92f3f6",
+      "source": "skill-creator/references/codex-cascade.md",
+      "source_sha256": "ea31a03ae2a7676b9d29afef71448a040edd01eaff662a96c0fec4f0cc31531b",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/skill-creator/references/ecosystem-nesting.md",
+      "delivered_sha256": "4d84b5b1e98821983111fe736c67b31c42700e555f615be0aa27f188d4371a2f",
+      "source": "skill-creator/references/ecosystem-nesting.md",
+      "source_sha256": "9f041a26206c9dea0d59d1c8c63111cff42fcaa914a5851397e16759b5a680a8",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/skill-creator/references/verification-and-eval-admission.md",
+      "delivered_sha256": "7f464ae1ff733ad0a2306a625b482ae468636fb811cf6072e2fbd3730d6ac026",
+      "source": "skill-creator/references/verification-and-eval-admission.md",
+      "source_sha256": "7f464ae1ff733ad0a2306a625b482ae468636fb811cf6072e2fbd3730d6ac026",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/skill-creator/scripts/quick_validate.py",
+      "delivered_sha256": "9e006135dda022466a842bbe35be4fd89b3970b3c2b504f1141202b1b8ba83cb",
+      "source": "skill-creator/scripts/quick_validate.py",
+      "source_sha256": "b5a28ec968b9b28eaa2c40e7c8bc2b99452c0b3d807c376f714317ecfa70567d",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/SKILL.md",
+      "delivered_sha256": "55c54d8ce710a710e7581267117462747fedf7b9863972667f6cffbe6ed15e2e",
+      "source": "subagent-driven-development/SKILL.md",
+      "source_sha256": "f4b002680253fd527fa3c71ba8ce0c6bb93d4cfd056b77caba2311756278a345",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/implementer-prompt.md",
+      "delivered_sha256": "193f12c17a6ad135e3249a03d7c7dfe7724099f367b4bf612ae8252b2c47b10b",
+      "source": "subagent-driven-development/implementer-prompt.md",
+      "source_sha256": "193f12c17a6ad135e3249a03d7c7dfe7724099f367b4bf612ae8252b2c47b10b",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/evidence-handoff.md",
+      "delivered_sha256": "bd5554a5e50548b4040680acbd8cedbb2fba6edac51965d39fef30c6c217dfb6",
+      "source": "subagent-driven-development/references/evidence-handoff.md",
+      "source_sha256": "2c5b16e81720831866da5fa19e53575aaa23ef42c50aaefbf04db00c081c21e5",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/long-form-planning.md",
+      "delivered_sha256": "5eeb64a831c201edba9f97f195263c01ddc782577d3c87a489f4a1d84e298613",
+      "source": "subagent-driven-development/references/long-form-planning.md",
+      "source_sha256": "5eeb64a831c201edba9f97f195263c01ddc782577d3c87a489f4a1d84e298613",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/native-role-routing.md",
+      "delivered_sha256": "1f1a95a0f28be29cbac792ee303e394fca15dfdf68abac479606193ded90a121",
+      "source": "subagent-driven-development/references/native-role-routing.md",
+      "source_sha256": "bd53d238a805f41837756c083d9b418ded1b18429c6e074cb039f8c63ea9bd47",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/parallel-dispatch.md",
+      "delivered_sha256": "aa169ee63fe94a74cd556fc207155fa52ad5da3b75a62d474b9560b0a9afaa51",
+      "source": "subagent-driven-development/references/parallel-dispatch.md",
+      "source_sha256": "aa169ee63fe94a74cd556fc207155fa52ad5da3b75a62d474b9560b0a9afaa51",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/plan-orchestrator.md",
+      "delivered_sha256": "e2dcd5c0790c3e1b7c67c752a1c550d3672ad572ac44613bb7ce5c8dcf6e7b81",
+      "source": "subagent-driven-development/references/plan-orchestrator.md",
+      "source_sha256": "365d37114656a7433ccf2b3954773ad24eb5e1e8ad66ce02daa8ee937f47df32",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/task-design.md",
+      "delivered_sha256": "6b1a049537abdfb8554f20d5c74cdeaee9d2559104db4be3aeff61134f865089",
+      "source": "subagent-driven-development/references/task-design.md",
+      "source_sha256": "6b1a049537abdfb8554f20d5c74cdeaee9d2559104db4be3aeff61134f865089",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/team-runtime.md",
+      "delivered_sha256": "01242192f5272bac4ddaa15331a0c266115c6e6022a733f7b97024318971d344",
+      "source": "subagent-driven-development/references/team-runtime.md",
+      "source_sha256": "17a5b6bfb3a32e87ee864a5c3da955044fc5c56dfd3d265733cc9aa1748ae4e5",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/references/team-selection.md",
+      "delivered_sha256": "0bdd2fcb095de5b2d38daf8f2d3c9c43e2414e80551c6b572bb64af8121d2495",
+      "source": "subagent-driven-development/references/team-selection.md",
+      "source_sha256": "245a464259b82f603eaaba30307594eb7e7ff163f9f2c338a42fe7f77eb54469",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/subagent-driven-development/task-reviewer-prompt.md",
+      "delivered_sha256": "2340f294b0e00bf35ec6024e306a8663e03eca7a7cecc044105d27a9f254c4a5",
+      "source": "subagent-driven-development/task-reviewer-prompt.md",
+      "source_sha256": "2340f294b0e00bf35ec6024e306a8663e03eca7a7cecc044105d27a9f254c4a5",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/using-superpowers/SKILL.md",
+      "delivered_sha256": "58fcd05812fd083ffbb1d55052aaeb86eba1b751b8c85ba8835bad90815fb887",
+      "source": "using-superpowers/SKILL.md",
+      "source_sha256": "2c3d4f6801a72a80751a6d2ad340feb622327c4908e0bb63d3f9125b4c2850ec",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/web-research/SKILL.md",
+      "delivered_sha256": "97a6d3aa8169bcf17a7fffa5b8b2c49ae090e059393e33b68a4e6da42dea0225",
+      "source": "web-research/SKILL.md",
+      "source_sha256": "d949679be231541a44b21197f4749045778f290bc8b57bce2abab5ae36bf4166",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/web-research/references/evidence-and-retention.md",
+      "delivered_sha256": "26ff02d523877f29a7a9be2eb628b1b0c554f448f8aee6b0bb4289cbfb45c8d8",
+      "source": "web-research/references/evidence-and-retention.md",
+      "source_sha256": "4d33dd156ff1c30fcb3ddd7a34e4ec4f68d4c7d0ac689274075f60fcca512cdf",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/web-research/references/query-operators.md",
+      "delivered_sha256": "1abfa14bc46679c9c314049045f82cf3e180bc29fdb7aeb93900e0decbc77f08",
+      "source": "web-research/references/query-operators.md",
+      "source_sha256": "1abfa14bc46679c9c314049045f82cf3e180bc29fdb7aeb93900e0decbc77f08",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/web-research/references/second-pass.md",
+      "delivered_sha256": "b501f0dc3216a5dfbd1487eae7c4042d6f83048676b84f1206bd218dde3b136d",
+      "source": "web-research/references/second-pass.md",
+      "source_sha256": "50b74364de7048ae7616bd834fe00ee6b0049b8ed6eca129cd6fc027f6a6d516",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/web-research/references/source-tiers.md",
+      "delivered_sha256": "c8f32dd66d843c758b01795d490ef2f795167c302bd22d10a7ea7962489b6484",
+      "source": "web-research/references/source-tiers.md",
+      "source_sha256": "c8f32dd66d843c758b01795d490ef2f795167c302bd22d10a7ea7962489b6484",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/web-research/references/version-and-recency.md",
+      "delivered_sha256": "c8ffdc665b305835c9e7e89f2fcd43dbb2008991110e2d91a45daef05b90f730",
+      "source": "web-research/references/version-and-recency.md",
+      "source_sha256": "c8ffdc665b305835c9e7e89f2fcd43dbb2008991110e2d91a45daef05b90f730",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/writing-skills/SKILL.md",
+      "delivered_sha256": "5917a7421ce3086b6309cb202ea8f84b213b10f79060ba9061925298a3d82313",
+      "source": "writing-skills/SKILL.md",
+      "source_sha256": "dae12744f329eaed59c6a41211868acc50edaac4772e69a0ceb44c23700058d7",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/anthropic-best-practices.md",
+      "delivered_sha256": "19fc34799f23e2756e6d893b9d7515a5480873431ab1cccb77afacade6cc6c88",
+      "source": "writing-skills/references/anthropic-best-practices.md",
+      "source_sha256": "129378acd2ee4cf0d650221a58b95fea0e27abfce098285c8d8975b71c5e66bc",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/claude-md-testing-example.md",
+      "delivered_sha256": "e38ab7baed84c81b480b6982355bc18e205ec0cd74149d841341064d8c5250e1",
+      "source": "writing-skills/references/claude-md-testing-example.md",
+      "source_sha256": "e38ab7baed84c81b480b6982355bc18e205ec0cd74149d841341064d8c5250e1",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/graphviz-conventions.dot",
+      "delivered_sha256": "c1f7c34b361533d30d2e1b99e790319c1052fa46dbc85c14fc39930f966c07f8",
+      "source": "writing-skills/references/graphviz-conventions.dot",
+      "source_sha256": "e2890a593c91370e384b42f2f67b1a6232c9e69dddea7891a0c1c46d7b20b694",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/persuasion-principles.md",
+      "delivered_sha256": "97fc6ffb92d0d8e8e3ae8b9ab41363570f8400fb45f152510ab22499737c348f",
+      "source": "writing-skills/references/persuasion-principles.md",
+      "source_sha256": "110eabce19e0dc9860bac528aace4828f414dccf28ecf73a0cd1501cb276f758",
+      "treatment": "portable adaptation"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/testing-and-bulletproofing.md",
+      "delivered_sha256": "12b3a7397a2dac900cbf731ef60b5ac51c4ba44294f328da1af648e2ba14d090",
+      "source": "writing-skills/references/testing-and-bulletproofing.md",
+      "source_sha256": "12b3a7397a2dac900cbf731ef60b5ac51c4ba44294f328da1af648e2ba14d090",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/testing-skills-with-subagents.md",
+      "delivered_sha256": "201d2e3a72f04a19d131c91c9789e31fabfff18e6c735df40d3ccb8b5e88d8a1",
+      "source": "writing-skills/references/testing-skills-with-subagents.md",
+      "source_sha256": "201d2e3a72f04a19d131c91c9789e31fabfff18e6c735df40d3ccb8b5e88d8a1",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/writing-skills/references/token-efficiency.md",
+      "delivered_sha256": "3d14df2f78f3a2e5e2977d994890fc7981e42780f4d1f16fc4f27e020e94f014",
+      "source": "writing-skills/references/token-efficiency.md",
+      "source_sha256": "3d14df2f78f3a2e5e2977d994890fc7981e42780f4d1f16fc4f27e020e94f014",
+      "treatment": "copy"
+    },
+    {
+      "file": ".claude/skills/writing-skills/scripts/render-graphs.js",
+      "delivered_sha256": "3ff57af51e6db5924b513d36ebe27294d1ecdd9724f34088e57ba3d43d48a873",
+      "source": "writing-skills/scripts/render-graphs.js",
+      "source_sha256": "3ff57af51e6db5924b513d36ebe27294d1ecdd9724f34088e57ba3d43d48a873",
+      "treatment": "copy"
+    }
+  ]
+}

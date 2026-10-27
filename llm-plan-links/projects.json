@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "canonical_subdirectories": [
+    "complete",
+    "eval-runs",
+    "reviews",
+    ".session"
+  ],
+  "projects": [
+    {
+      "id": "starter-example",
+      "source_root": "..",
+      "plan_directory": "starter-example",
+      "imports": [],
+      "legacy_subtrees": [],
+      "live_in_complete": []
+    }
+  ]
+}

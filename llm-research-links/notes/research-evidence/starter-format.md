@@ -1,0 +1,19 @@
+# Starter format example
+
+A local format demonstration; no external research or personal corpus is imported.
+
+## R-0001
+
+- Claim: The starter plan library keeps each registered project in its own folder with one ROLES.md index of plan pointers.
+- Status: VERIFIED
+- Basis: DOCUMENTED
+- Applies to: Only this bundled starter format; not a claim about a recipient project or native agent enforcement.
+- Evidence: The bundled plan README sections Layout and file roles, Register any active project, and ROLES index describe this convention; the local example files implement its format.
+- Access: INSPECTED
+- Origin: LIVE; local starter-file inspection 2026-10-27; used to demonstrate source, canonical note and index framing for this shareable kit; no external source inspected.
+- Recheck: Reopen when the bundled planning format changes or before treating it as a recipient project convention.
+- Corroboration: Single local source; the example registry and role file are same-origin cross-checks, not independent validation.
+- Tags: planning, provenance, starter
+- Projects: cross-project
+- Use when: Adapt shared plan/research navigation to a new source project.
+- Canonical owner: this library

@@ -1,0 +1,34 @@
+{
+  "records": [
+    {
+      "Source title": "<Exact source title>",
+      "Source URL": "https://example.com/replace-with-actual-source",
+      "Useful for": "<Actual decision this finding informed>",
+      "Authority": "PRIMARY",
+      "Checked": "UNKNOWN",
+      "Domain": "research-evidence",
+      "Topic": "your-research-topic",
+      "Topic title": "Your research topic",
+      "Topic summary": "Replace with the actual scope.",
+      "Claim": "<Scoped proposed claim; replace after source inspection>",
+      "Status": "PROPOSED",
+      "Basis": "UNKNOWN",
+      "Applies to": "Only this bundled starter format; not a claim about a recipient project or native agent enforcement.",
+      "Evidence": "<Actual source locator and supporting text once inspected>",
+      "Access": "UNAVAILABLE",
+      "Origin": "LIVE; source inspection not performed; fill the actual method/date and task use before adding",
+      "Recheck": "Reopen when the bundled planning format changes or before treating it as a recipient project convention.",
+      "Corroboration": "Single local source; the example registry and role file are same-origin cross-checks, not independent validation.",
+      "Tags": [
+        "planning",
+        "provenance",
+        "starter"
+      ],
+      "Projects": [
+        "cross-project"
+      ],
+      "Use when": "<Concrete future task>",
+      "Canonical owner": "this library"
+    }
+  ]
+}

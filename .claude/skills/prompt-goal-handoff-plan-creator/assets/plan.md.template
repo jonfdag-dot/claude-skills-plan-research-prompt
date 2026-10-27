@@ -1,0 +1,65 @@
+---
+status: in_progress
+created: YYYY-MM-DD
+completed:
+---
+
+# <Initiative> handoff — YYYY-MM-DD
+
+This handoff carries <initiative> into the next session toward <final state in one clause>; the initiative is done when <observable end state> is shown by `<proving command or journey>` returning <expected result> on <environment>.
+
+Non-goals: <work a reader might add but must not>
+Must not change: <behaviour, data or contracts that must survive>
+Hard constraints: <reserved operations, environments, budgets>
+Deliverables: <end-state artifacts or behaviours>
+
+## Lineage
+
+Supersedes: [<YYYY-MM-DD-prior-handoff>/plan.md](../complete/<YYYY-MM-DD-prior-handoff>/plan.md) | none (first handoff)
+Canonical plan: [<main plan>](<path>) | this file
+Original request: "<verbatim user text>" (<runtime> session <id>, <UTC time>) | original unavailable: <reason>
+Later corrections: "<verbatim user text>" (<source>, <UTC time>)
+Prompt snapshot: [YYYY-MM-DD-references/user-prompts.md](YYYY-MM-DD-references/user-prompts.md)
+
+## Status
+
+As of: <UTC timestamp>; <repo> on <branch> at <HEAD>, <N> dirty paths, fingerprint <hash>
+Current milestone: <name and state>
+Next action: <one bounded action — acceptance check — what it unlocks>
+How to run: `<command>`
+Last passing command: `<command>` → <observed result> (<date>)
+Known issues: <blockers and pre-existing failures>
+
+| Claim | Evidence | Checked | How to re-verify |
+| --- | --- | --- | --- |
+| <claim> | <path or output> | <UTC date>, this session \| as recorded <date> | `<read-only command>` |
+
+## Delta
+
+Requirements (only when no canonical plan owns the requirement map; later handoffs change only Status and Evidence):
+
+| ID | Requirement in the user's words | Source | Status | Evidence |
+| --- | --- | --- | --- | --- |
+| R1 | "<verbatim user text>" | <session, UTC time> | met \| partial \| not met \| dropped by the user | <path or command> |
+
+Completed since <prior bundle>: <item> — `<command>` → <observed result> or <commit> (<date>)
+Continuing: <item> — <state> — <next step>; UNVERIFIED (last evidence <date>, <path>) when not re-checked this session
+New: <item> — "<user quote>" (<source>)
+Ruled out: <approach> — why it failed — <evidence path> — tested on <revision, environment>; do not retry unless those conditions change
+Invalidated: <claim> — why it went stale; kept visible
+
+## Approvals
+
+Authorized: <operation and target> — "<user quote>" (<source>, <date>) — new | carried from <prior bundle>
+Not authorized: <operations needing a new explicit approval>
+Pending decisions: <question — options — recommended default — what it blocks>
+Task-owned resources: <id — owner — cleanup command> | none
+
+## Decisions
+
+- YYYY-MM-DD: <choice>; <reason>; rejected <alternative>; confirmed by the user ("<quote>", <source>) | assumption, unconfirmed.
+
+## Discoveries
+
+- YYYY-MM-DD: <observation>; <evidence>.
+- YYYY-MM-DD: <difficulty>; how it was handled or resolved.

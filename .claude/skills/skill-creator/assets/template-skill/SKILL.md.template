@@ -1,0 +1,22 @@
+---
+name: replace-with-skill-name
+description: "Describe the capability and concrete situations for selecting it."
+---
+
+# <Skill name>
+
+COPY RESET: rename the folder and replace name, description, body and every placeholder. Review any copied native invocation or tool policy rather than inheriting it blindly. Update the installed human skill index and affected callers. This template contains no custom routing metadata or other-runtime policy.
+
+## Contract
+
+<Outcome, scope, inputs, outputs, constraints, failure behavior and observable done.>
+
+## Procedure
+
+1. <Inspect the relevant source and constraints.>
+2. <Perform the smallest authorized workflow.>
+3. <Run sufficient checks and report actual results and remaining limits.>
+
+## Supporting resources
+
+<Link each real reference, script or asset and state when it should be read or used. Remove this section if no resources are needed.>

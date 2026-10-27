@@ -1,0 +1,40 @@
+---
+status: in_progress
+created: YYYY-MM-DD
+completed:
+---
+
+# <Requested outcome>
+
+This plan delivers <observable behavior> for <actor/use case>; done means <required checks and user-visible result> on <environment/revision>, with actual evidence recorded in Status.
+
+Scope: <requested requirements and affected source files/interfaces>
+Non-goals: <adjacent work outside the request>
+Must preserve: <existing behavior and invariants>
+Authority: <actual user instruction; reserved operations stay reserved>
+Deliverables: <concrete artifacts or behaviors>
+
+## Milestones
+
+1. <Behavior and dependency-ready change> — owner: <owner>; files: <exact files>; acceptance: <command/journey and expected result>.
+2. <Integrated behavior> — dependencies: <accepted milestone>; acceptance: <covering integration evidence>.
+
+## Status
+
+Current milestone: <actual state>
+Next action: <one executable action or named prerequisite>
+How to run: <real command and cwd>
+Last passing command: not run.
+Known issues: <material blockers or none>
+
+## Decisions
+
+<UTC date> — <accepted choice, reason and rejected alternative>.
+
+## Discoveries
+
+<UTC date> — <observation, exact evidence and implication>.
+
+## Research
+
+<R-ID and the clause it supports, or none needed>.
