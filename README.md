@@ -6,6 +6,34 @@ Adopt a shared workflow for researching decisions, planning project work and res
 
 The framework has three parts: `.claude/` supplies reusable skills, `llm-research-links/` keeps source-linked findings, and `llm-plan-links/` keeps each project's plans and progress. Connect one existing project first, then reuse the setup across your other projects.
 
+## See how the pieces fit together
+
+```text
+claude-skills-plan-research-prompt/
+├── README.md                  Overview and getting started
+├── CLAUDE.md                  Step-by-step adoption guide
+├── FILES.md                   Complete file map
+├── .claude/
+│   ├── CLAUDE.md              Shared working conventions
+│   └── skills/                Eight workflows, references and templates
+│       └── INDEX.md           Skill selection and resource guide
+├── llm-research-links/
+│   ├── sources.md             Register of sources and finding IDs
+│   ├── notes/                 Reusable findings organized by subject
+│   ├── reports/               Research syntheses
+│   └── scripts/               Search, retrieval and evidence tools
+└── llm-plan-links/
+    ├── projects.json          Source-project registration
+    ├── starter-example/       Example plan and ROLES.md index
+    └── scripts/               Plan tools and project templates
+```
+
+The skills provide instructions for research, brainstorming, prompt writing, planning handoffs and maintaining the instructions themselves. Each skill keeps its supporting references and templates together so Claude can read the material needed for the current task.
+
+The research library preserves findings with sources and stable IDs. The plan library records what a project intends to build, its decisions, progress and next action. A project's `ROLES.md` points to its current plans; those plans can cite the research that informed them.
+
+A typical task starts by searching existing research, investigating gaps and saving useful evidence. A plan turns the decision into implementation work and records progress. When you switch sessions, a handoff carries the current state and next action forward. The libraries can serve multiple projects while each project's application code stays in its own repository.
+
 ## Set up your first project
 
 1. Put the two libraries at `~/llm-plan-links/` and `~/llm-research-links/`.
